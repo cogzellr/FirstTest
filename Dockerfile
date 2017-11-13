@@ -1,5 +1,5 @@
 FROM ubuntu
 RUN apt-get update
 RUN apt-get -y install python
-ADD hellodevnet.py /hellodevnet.py
+ADD hello.py /hello.py
 CMD ["/hello.py"]
